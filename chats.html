@@ -11,9 +11,10 @@
       crossorigin="anonymous"
     />
     <title>Chats</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="top-header">
       <div class="header__top">
         <div class="header__column">
           <i class="fas fa-fighter-jet"></i> <i class="fa fa-wifi"></i>
@@ -27,17 +28,15 @@
             >66% <i class="fas fa-battery-half"></i
           ></span>
         </div>
-        <div class="header__bottom">
-          <div class="header__column">
-            <span class="header__text">Edit</span>
-          </div>
-          <div class="header__column">
-            <span class="header__text"
-              >Chats <i class="fa fa-caret-down"></i
-            ></span>
-          </div>
-          <div class="header__column"></div>
+      </div>
+      <div class="header__bottom">
+        <div class="header__column"><span class="header__text">Edit</span></div>
+        <div class="header__column">
+          <span class="header__text"
+            >Chats <i class="fa fa-caret-down"></i
+          ></span>
         </div>
+        <div class="header__column"></div>
       </div>
     </header>
     <main class="chats">
@@ -61,6 +60,7 @@
             <span class="chat__date-time"> 15:55 </span></a
           >
         </li>
+
         <li class="chats__chat">
           <a href="chat.html">
             <div class="chat__content">

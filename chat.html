@@ -11,9 +11,10 @@
       crossorigin="anonymous"
     />
     <title>Chat</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
-    <header>
+  <body class="body-chat">
+    <header class="top-header chat-header">
       <div class="header__top">
         <div class="header__column">
           <i class="fas fa-fighter-jet"></i> <i class="fa fa-wifi"></i>
@@ -44,13 +45,13 @@
       <div class="date-divider">
         <span class="date-divider__text">Wednesday, August 2, 2017</span>
       </div>
-      <div class="chat__message__message-from-me">
+      <div class="chat__message chat__message-from-me">
         <span class="chat__message-time">17:55</span>
         <span class="chat__message-body"> Hello! This is a test Message </span>
       </div>
-      <div class="chat__message chat__message--to">
+      <div class="chat__message chat__message--to-me">
         <img src="images/avatar.jpg" alt="" class="chat__message-avatar" />
-        <div class="chat-message-center">
+        <div class="chat__message-center">
           <h3 class="chat__message__username">Lynn</h3>
           <span class="chat__message-body"> And this is an answer </span>
         </div>
@@ -58,7 +59,7 @@
       </div>
     </main>
     <div class="type-message">
-      <i class="fas fa-plus fa-2x"></i>
+      <i class="fas fa-plus fa-lg"></i>
       <div class="type-message__input">
         <input type="text" /> <i class="far fa-smile"></i>
         <span class="record-message"> <i class="fas fa-microphone"></i> </span>
