@@ -13,12 +13,12 @@
   align-items: center;
   justify-content: space-between;
   padding-left: 30px;
-  padding-right: 30px;
+  padding-right: 5px;
   color: #523737;
 }
 
 .find__option i {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .find__option span {
